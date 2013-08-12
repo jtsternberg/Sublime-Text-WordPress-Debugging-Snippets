@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$log = WP_CONTENT_DIR . '/debug.log';
+\$existing = file_get_contents( \$log );
+file_put_contents( \$log, \$existing . "\n" . '${2}: '. print_r( ${1}, true ) );$0
+]]></content>
+	<tabTrigger>todebuglog</tabTrigger>
+</snippet>
