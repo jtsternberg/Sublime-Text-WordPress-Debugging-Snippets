@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-echo '<xmp>${2} = '. str_replace( 'stdClass::__set_state', '(object) ', var_export( ${1}, true ) ) .'</xmp>';$0
+echo '<xmp>${1} = '. str_replace( array( 'stdClass::__set_state', 'array (', "=> \n ", "=> \r " ), array( '(object) ', 'array(', '=>' ), var_export( ${1}, true ) ) .';</xmp>';$0
 ]]></content>
 	<tabTrigger>echovarexport</tabTrigger>
 </snippet>
