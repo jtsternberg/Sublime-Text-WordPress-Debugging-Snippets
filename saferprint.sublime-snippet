@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+if ( isset( \$_SERVER, \$_SERVER['REMOTE_HOST'] ) && '174.106.239.98' == \$_SERVER['REMOTE_HOST'] ) {
+	wp_die( '<xmp style="padding: 50px; background: #eee; color: #000;">${1}: '. print_r( ${1}, true ) .'</xmp>' );
+}$0
+]]></content>
+	<tabTrigger>saferprint</tabTrigger>
+</snippet>

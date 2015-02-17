@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+debug_backtrace( DEBUG_BACKTRACE_IGNORE_ARGS );
+]]></content>
+	<tabTrigger>debug_backtrace</tabTrigger>
+</snippet>
