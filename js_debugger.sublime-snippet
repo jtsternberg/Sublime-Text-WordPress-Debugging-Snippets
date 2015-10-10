@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Debugger
+ * When in the console, this will pause execution in the same manner
+ * that the native breakpoint dev tool does.
+ */
+function debug_test() {
+	console.log('execution started');
+	debugger;
+	console.log('execution stopped');
+}
+]]></content>
+<tabTrigger>js debugger</tabTrigger>
+<scope>source.js</scope>
+</snippet>
