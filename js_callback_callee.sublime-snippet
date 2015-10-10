@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * An example of a callee indicator, writing to a string.
+ */
+
+function Hello()
+{
+    alert("caller is " + arguments.callee.caller.toString());
+}
+]]></content>
+<tabTrigger>js callback callee</tabTrigger>
+<scope>source.js</scope>
+</snippet>

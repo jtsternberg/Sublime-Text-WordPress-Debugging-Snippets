@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * A stack trace example
+ */
+
+function stackTrace() {
+    var err = new Error();
+    return err.stack;
+}
+]]></content>
+<tabTrigger>js stack trace</tabTrigger>
+<scope>source.js</scope>
+</snippet>

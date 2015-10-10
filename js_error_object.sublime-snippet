@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+/**
+* Throw an actual error if something is not an integer.
+*/
+
+function add(x,y){
+	if( isNaN(x) || isNaN(y) ){
+		throw new Error("${1}");
+	} else {
+
+		// In this example, ensure we're adding numbers,
+		// not concatenating numeric strings
+		return (x * 1) + (y * 1);
+	}
+}
+var a;
+
+try {
+	a = add(9);
+} catch(e) {
+	// throw an actual error here.
+console.error( e.message );
+}
+]]></content>
+<tabTrigger>js error object</tabTrigger>
+<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * console.trace
+ * The console object also supports outputting a stack trace; this will show you the call path taken to
+ * reach the point at which you call console.trace
+ */
+
+foo();
+
+function foo() {
+  function bar() {
+    console.trace();
+  }
+  bar();
+}
+]]></content>
+<tabTrigger>js console trace</tabTrigger>
+<scope>source.js</scope>
+</snippet>

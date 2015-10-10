@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * PerformanceTiming interface
+ *
+ * Show the time elapsed between two events.
+ */
+
+function some_thing() {
+  performance.now();
+  do_thing();
+  console.log(performance.now() );
+}
+]]></content>
+<tabTrigger>js performance example</tabTrigger>
+<scope>source.js</scope>
+</snippet>
