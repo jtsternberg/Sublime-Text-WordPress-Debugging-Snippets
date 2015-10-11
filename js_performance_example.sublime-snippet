@@ -12,6 +12,6 @@ function some_thing() {
   console.log(performance.now() );
 }
 ]]></content>
-<tabTrigger>js performance example</tabTrigger>
+<tabTrigger>performance</tabTrigger>
 <scope>source.js</scope>
 </snippet>

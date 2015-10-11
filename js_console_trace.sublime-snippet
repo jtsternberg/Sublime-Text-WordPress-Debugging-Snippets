@@ -15,6 +15,6 @@ function foo() {
   bar();
 }
 ]]></content>
-<tabTrigger>js console trace</tabTrigger>
+<tabTrigger>consoletrace</tabTrigger>
 <scope>source.js</scope>
 </snippet>

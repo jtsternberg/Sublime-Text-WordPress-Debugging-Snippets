@@ -11,6 +11,6 @@ function debug_test() {
 	console.log('execution stopped');
 }
 ]]></content>
-<tabTrigger>js debugger</tabTrigger>
+<tabTrigger>debugger</tabTrigger>
 <scope>source.js</scope>
 </snippet>
