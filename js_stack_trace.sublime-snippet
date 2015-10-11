@@ -9,6 +9,6 @@ function stackTrace() {
     return err.stack;
 }
 ]]></content>
-<tabTrigger>js stack trace</tabTrigger>
+<tabTrigger>stacktrace</tabTrigger>
 <scope>source.js</scope>
 </snippet>

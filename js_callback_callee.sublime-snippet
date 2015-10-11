@@ -9,6 +9,6 @@ function Hello()
     alert("caller is " + arguments.callee.caller.toString());
 }
 ]]></content>
-<tabTrigger>js callback callee</tabTrigger>
+<tabTrigger>callbackcallee</tabTrigger>
 <scope>source.js</scope>
 </snippet>

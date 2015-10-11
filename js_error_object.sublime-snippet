@@ -23,6 +23,6 @@ try {
 console.error( e.message );
 }
 ]]></content>
-<tabTrigger>js error object</tabTrigger>
+<tabTrigger>errorobject</tabTrigger>
 <scope>source.js</scope>
 </snippet>
