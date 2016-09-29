@@ -5,5 +5,4 @@ debugger;
 $0
 ]]></content>
 	<tabTrigger>debugger</tabTrigger>
-	<scope>source.js -string</scope>
 </snippet>
