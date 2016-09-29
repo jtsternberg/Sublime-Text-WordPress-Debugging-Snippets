@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+\$dom = new DOMDocument;
+
+// http://stackoverflow.com/a/8218649/1883421
+@\$dom->loadHTML( '<?xml encoding="UTF-8">' . \$content );
+
+\$${2:link}s = array();
+foreach ( \$dom->getElementsByTagName( '${1:a}' ) as \$${2:link} ) {
+	\$${2:link}s[ \$${2:link}->getAttributeNode( '${3:href}' )->nodeValue ] = \$dom->saveHTML( \$${2:link} );
+}
+
+return \$${2:link}s;$0
+]]></content>
+	<description>PHP DOMDocument method</description>
+	<tabTrigger>domdocumentmethod</tabTrigger>
+	<scope>source.php -string</scope>
+</snippet>

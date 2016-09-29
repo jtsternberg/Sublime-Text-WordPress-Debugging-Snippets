@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+error_log( __METHOD__ . ' : '. print_r( get_defined_vars(), true ) );
+]]></content>
+	<description>Log defined vars</description>
+	<tabTrigger>errdefinedvars:</tabTrigger>
+	<scope>source.php -string</scope>
+</snippet>

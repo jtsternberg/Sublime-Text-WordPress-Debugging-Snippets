@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-wp_debug_backtrace_summary( null, 0, false );
+debug_backtrace( DEBUG_BACKTRACE_IGNORE_ARGS );
 ]]></content>
 	<tabTrigger>debug_backtrace</tabTrigger>
 </snippet>

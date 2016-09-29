@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 if ( isset( \$_GET['jtdebug'] ) ) {
-	wp_die( '<xmp style="padding: 50px; background: #eee; color: #000;">${1}: '. print_r( ${1}, true ) .'</xmp>' );
+	${2:wp_die}( '<xmp style="padding: 50px; background: #eee; color: #000;">'. __LINE__ .') ${1}: '. print_r( ${1}, true ) .'</xmp>' );
 }$0
 ]]></content>
 	<tabTrigger>safeprint</tabTrigger>

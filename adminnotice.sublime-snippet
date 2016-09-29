@@ -1,14 +1,12 @@
 <snippet>
 	<content><![CDATA[
-add_action( 'all_admin_notices', '${2}_admin_notice' );
-function ${2}_admin_notice() {
+add_action( 'all_admin_notices', function() {
 	echo '<div id="message" class="updated"><p>';
 
 		echo '<xmp>${1}: '. print_r( ${1}, true ) .'</xmp>';
 
 	echo '</p></div>';
-
-}$0
+} );$0
 ]]></content>
 	<tabTrigger>adminnotice</tabTrigger>
 </snippet>
