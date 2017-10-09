@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+throw new \Exception( __LINE__ .') ${2}: '. print_r( ${1}, true ), __LINE__ );
+]]></content>
+	<description>Throw print_r of data</description>
+	<tabTrigger>errexcept</tabTrigger>
+	<scope>source.php -string</scope>
+</snippet>

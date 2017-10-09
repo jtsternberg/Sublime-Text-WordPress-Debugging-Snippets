@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+add_filter( '${1:the_content}', function( \$${4:thing}$5 ) {
+	$0
+
+	return \$${4:thing};
+}, 10${2:, ${3:1}} );
+]]></content>
+	<tabTrigger>inlinefilter</tabTrigger>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+add_action( '${1:init}', function(${4: \$${5:thing}$6 }) {
+	$0
+}, 10${2:, ${3:1}} );
+]]></content>
+	<tabTrigger>inlineaction</tabTrigger>
+</snippet>
