@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 add_action( 'all_admin_notices', function() {
-	echo '<div id="message" class="updated"><p>';
+	echo '<div id="message" class="updated notice is-dismissible"><p>';
 
 		echo '<xmp>${1}: '. print_r( ${1}, true ) .'</xmp>';
 
