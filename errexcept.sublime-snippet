@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-${3:throw new \Exception}( __LINE__ .') ${2}: '. print_r( ${1}, true ), __LINE__ );$0
+${3:throw new \Exception}( __METHOD__ . ':' . __LINE__ .') ${2}: '. print_r( ${1}, true ), __LINE__ );$0
 ]]></content>
 	<description>Throw print_r of data</description>
 	<tabTrigger>errexcept</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-error_log( __METHOD__ . ' : '. print_r( get_defined_vars(), true ) );
+error_log( __METHOD__ . ':' . __LINE__ .') '. print_r( get_defined_vars(), true ) );
 ]]></content>
 	<description>Log defined vars</description>
 	<tabTrigger>errdefinedvars:</tabTrigger>
