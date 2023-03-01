@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+logVars( ${3:__METHOD__} . ':' . __LINE__ .') ${2}: ', ${1} );$0
+]]></content>
+	<tabTrigger>logvars:</tabTrigger>
+</snippet>
